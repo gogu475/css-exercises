@@ -1,6 +1,15 @@
 body {
   font-family: 'Courier New', Courier, monospace;
 }
+.container {
+  display:flex;
+  gap:52px;
+  justify-content: center;
+}
+.infosection {
+  width: 200px; /*max-width in solution is not necessary as this example  defaults to flex:0 */
+  text-align: center;
+}
 
 img {
   width: 100px;
@@ -10,6 +19,8 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
+  text-align: center;
 }
 
 /* do not edit this footer */
